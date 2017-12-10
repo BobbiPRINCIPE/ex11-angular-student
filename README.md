@@ -24,6 +24,17 @@ http://locahost:42000
 ```
 + to stop webpack started above, in Terminal enter, Ctrl + C
 
+
+## setup from clone
++ clone this project, install dependencies, start app in a separate gitbash
+```
+cd /c/fdu/csci3444/projects
+git clone https://github.com/fdu-csci3444/ex11-angular-student
+cd ex11-angular-student
+npm install
+npm run start
+```
+
 ### start creating the app - ilker
 + create student component in components via CLI. Notice 
     - it (StudentComponent) gets auto added to "delarations" of app.module.ts
